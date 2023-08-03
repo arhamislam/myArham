@@ -32,7 +32,7 @@ p {
     margin-right: 0px;
 }
 
-.logo {
+.logoHome {
     width: 640px;
     height: 113.333333333px;
 }
@@ -42,25 +42,14 @@ p {
     margin-left: 139px;
 }
 
-.loginContainer {
+.userContainer {
     margin-top: 200px;
     margin-left: 350px;
 }
 
-.loginBox {
-    width: 400px;
-    height: 600px;
+.box {
     padding: 20px;
     background-color: white;
-}
-
-.login {
-    font-size: 36px;
-    text-align: center;
-}
-
-.logoForms {
-    text-align: left;
 }
 
 .forgotPassword:link {
@@ -83,22 +72,22 @@ p {
     text-decoration: none;
 }
 
-.createAccount:link {
+.logRegLink:link {
     color: #DB2E2E;
     text-decoration: none;
 }
 
-.createAccount:visited {
+.logRegLink:visited {
     color: #DB2E2E;
     text-decoration: none;
 }
 
-.createAccount:hover {
+.logRegLink:hover {
     color: darkred;
     text-decoration: none;
 }
 
-.createAccount:active {
+.logRegLink:active {
     color: black;
     text-decoration: none;
 }
