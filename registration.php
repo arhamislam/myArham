@@ -18,7 +18,7 @@
         <title>Registration</title>
     </head>
     <body>
-        <div class="pageContainer">
+        <div class="d-flex">
             <!-- Logo & Text -->
             <div class="logoContainer">
                 <img src="logos/logoBig.png" alt="myArham" class="logoHome">
@@ -33,10 +33,39 @@
             <div class="userContainer">
                 <div class="rounded-5 text-center box">
                     <img src="./logos/logo.png" alt="myArham" class="mb-2">
-                    <p class="h3 fw-bold">Sign Up</p>
+                    <h4 class="fw-bold">Sign Up</h4>
+
+                    <!-- <div class="mt-3 mb-3">
+                        <label class="form-label fw-bold">Enter the 6-digit your doctor provided you to create an account.</label>
+                        <div class="d-inline-flex w-50">
+                            <input type="text" class="form-control m-2" id="1">
+                            <input type="text" class="form-control m-2" id="2">
+                            <input type="text" class="form-control m-2" id="3">
+                            <input type="text" class="form-control m-2" id="4">
+                            <input type="text" class="form-control m-2" id="5">
+                            <input type="text" class="form-control m-2" id="6">
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="mt-3 mb-3 text-start">
+                        <label for="email" class="form-label fw-bold">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="password" class="form-label fw-bold">Password</label>
+                        <input type="password" class="form-control" id="password">
+                        <a href="#" class="forgotPassword"><small id="forgotPassword">Forgot password?</small></a>
+                    </div> -->
+
+                    <div class="row mt-3 mb-3">
+                        <div class="col">
+                            <label for="hcn" class="form-label">Health Card Number</label>
+                            <input type="text" class="form-control" id="hcn">
+                        </div>
+                    </div>
 
                     <a class="btn btn-danger mb-3 w-100 fw-bold" href="#" role="button">Next</a>
-                    <p>Already have an account? <a href="/myArham/index.php" class="fw-bold logRegLink">Sign in</a></p>
+                    <p>Already have an account? <a href="/myArham/" class="fw-bold logRegLink">Sign in</a></p>
                 </div>
             </div>
         </div>

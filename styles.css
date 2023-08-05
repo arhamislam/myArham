@@ -19,10 +19,6 @@ p {
     color: #343434;
 }
 
-.pageContainer {
-    display: flex;
-}
-
 .logoContainer {
     width: 640px;
     height: 200px;
@@ -91,4 +87,3 @@ p {
     color: black;
     text-decoration: none;
 }
-

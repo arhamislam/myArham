@@ -18,7 +18,7 @@
         <title>myArham</title>
     </head>
     <body>
-        <div class="pageContainer">
+        <div class="d-flex">
             <!-- Logo & Text -->
             <div class="logoContainer">
                 <img src="logos/logoBig.png" alt="myArham" class="logoHome">
@@ -31,16 +31,16 @@
 
             <!-- Login -->
             <div class="userContainer">
-                <div class="rounded-5 box text-center">
+                <div class="rounded-5 text-center box">
                     <img src="./logos/logo.png" alt="myArham" class="mb-2">
-                    <p class="h3 fw-bold">Sign In</p>
+                    <h4 class="fw-bold">Sign In</h4>
 
                     <div class="mt-3 mb-3 text-start">
-                        <label for="email" class="form-label fw-bold">Email address</label>
+                        <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email">
                     </div>
                     <div class="mb-3 text-start">
-                        <label for="password" class="form-label fw-bold">Password</label>
+                        <label for="password" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password">
                         <a href="#" class="forgotPassword"><small id="forgotPassword">Forgot password?</small></a>
                     </div>
